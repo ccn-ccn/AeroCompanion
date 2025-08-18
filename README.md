@@ -361,48 +361,59 @@ Deploy for environmental compliance and emergency response:
 - **Regulatory Reporting**: Automated compliance documentation and incident reports
 - **Multi-Site Coordination**: Orchestrate response across multiple drone deployments
 
-Workflow: Energy & Infrastructure – Automated Asset Inspection
-Use Case
+⚡ Energy & Infrastructure – Automated Asset Inspection
+🏭 Use Case
 
-Solar farms, wind turbines, oil & gas pipelines → Drone performs scheduled inspections with compliance reporting.
+Solar farms
 
-Workflow Flow
+Wind turbines
 
-Trigger
+Oil & gas pipelines
 
-Scheduled via n8n (daily, weekly).
+Drone performs scheduled inspections with compliance reporting.
 
-Or manual trigger by maintenance engineer.
+🔄 Workflow Flow
+1. Trigger
 
-n8n Processing
+Scheduled via n8n (daily, weekly)
 
-Send inspection mission JSON to drone (altitude, route, duration).
+Or manual trigger by maintenance engineer
 
-Collect telemetry, video, and anomaly flags (thermal hotspots, cracks, vegetation overgrowth).
+2. n8n Processing
 
-Actions
+Send inspection mission JSON to drone (altitude, route, duration)
 
-Data Analysis:
+Collect telemetry, video, and anomaly flags:
 
-Run ML pipeline for anomaly detection (YOLOv8, TensorRT).
+Thermal hotspots
 
-Tag anomalies with GPS coordinates.
+Cracks
 
-Maintenance Integration:
+Vegetation overgrowth
 
-Auto-create work order in CMMS (Fiix, IBM Maximo, SAP PM).
+3. Actions
 
-Regulatory Reporting:
+Data Analysis
 
-Auto-generate PDF report with timestamps & drone data.
+Run ML pipeline for anomaly detection (YOLOv8, TensorRT)
 
-Email to compliance officers.
+Tag anomalies with GPS coordinates
 
-Data Archival
+Maintenance Integration
 
-Store inspection data in S3 / Google Cloud.
+Auto-create work order in CMMS (Fiix, IBM Maximo, SAP PM)
 
-Push summary to Power BI / Grafana dashboards.
+Regulatory Reporting
+
+Auto-generate PDF report with timestamps & drone data
+
+Email to compliance officers
+
+4. Data Archival
+
+Store inspection data in S3 / Google Cloud
+
+Push summary to Power BI / Grafana dashboards
 
 ```json
 {
