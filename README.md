@@ -369,25 +369,25 @@ Solar farms, wind turbines, oil & gas pipelines → Drone performs scheduled ins
 
 **Workflow Flow**
 1. Trigger
-    Scheduled via n8n (daily, weekly).
-    Or manual trigger by maintenance engineer.
+    * Scheduled via n8n (daily, weekly).
+    * Or manual trigger by maintenance engineer.
 
 2. n8n Processing
-    Send inspection mission JSON to drone (altitude, route, duration).
-    Collect telemetry, video, and anomaly flags (thermal hotspots, cracks, vegetation overgrowth).
+    * Send inspection mission JSON to drone (altitude, route, duration).
+    * Collect telemetry, video, and anomaly flags (thermal hotspots, cracks, vegetation overgrowth).
 
 3. Actions
     Data Analysis:
-        Run ML pipeline for anomaly detection (YOLOv8, TensorRT).
-        Tag anomalies with GPS coordinates.
+        * Run ML pipeline for anomaly detection (YOLOv8, TensorRT).
+        * Tag anomalies with GPS coordinates.
     Maintenance Integration:
-        Auto-create work order in CMMS (Fiix, IBM Maximo, SAP PM).
+        * Auto-create work order in CMMS (Fiix, IBM Maximo, SAP PM).
     Regulatory Reporting:
-        Auto-generate PDF report with timestamps & drone data.
-        Email to compliance officers.
+        * Auto-generate PDF report with timestamps & drone data.
+        * Email to compliance officers.
     Data Archival
-        Store inspection data in S3 / Google Cloud.
-        Push summary to Power BI / Grafana dashboards.
+        * Store inspection data in S3 / Google Cloud.
+        * Push summary to Power BI / Grafana dashboards.
 
 ```json
 {
