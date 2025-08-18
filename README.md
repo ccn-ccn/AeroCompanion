@@ -377,15 +377,15 @@ Solar farms, wind turbines, oil & gas pipelines → Drone performs scheduled ins
     * Collect telemetry, video, and anomaly flags (thermal hotspots, cracks, vegetation overgrowth).
 
 3. Actions
-    Data Analysis:
+    - Data Analysis:
         * Run ML pipeline for anomaly detection (YOLOv8, TensorRT).
         * Tag anomalies with GPS coordinates.
-    Maintenance Integration:
+    - Maintenance Integration:
         * Auto-create work order in CMMS (Fiix, IBM Maximo, SAP PM).
-    Regulatory Reporting:
+    - Regulatory Reporting:
         * Auto-generate PDF report with timestamps & drone data.
         * Email to compliance officers.
-    Data Archival
+    - Data Archival
         * Store inspection data in S3 / Google Cloud.
         * Push summary to Power BI / Grafana dashboards.
 
