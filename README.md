@@ -361,99 +361,33 @@ Deploy for environmental compliance and emergency response:
 - **Regulatory Reporting**: Automated compliance documentation and incident reports
 - **Multi-Site Coordination**: Orchestrate response across multiple drone deployments
 
-Energy & Infrastructure – Automated Asset Inspection Workflow
-Use Case
-Automated inspection of energy infrastructure assets including:
+### Workflow: Energy & Infrastructure – Automated Asset Inspection
 
-Solar farms
-Wind turbines
-Oil & gas pipelines
+**Use Case**
 
-Solution: Drone performs scheduled inspections with automated compliance reporting.
-Workflow Architecture
-Trigger
+Solar farms, wind turbines, oil & gas pipelines → Drone performs scheduled inspections with compliance reporting.
 
-Scheduled: Via n8n automation (daily, weekly intervals)
-Manual: Initiated by maintenance engineer
+**Workflow Flow**
+1. Trigger
+    Scheduled via n8n (daily, weekly).
+    Or manual trigger by maintenance engineer.
 
-Processing Pipeline
-1. Mission Initialization
+2. n8n Processing
+    Send inspection mission JSON to drone (altitude, route, duration).
+    Collect telemetry, video, and anomaly flags (thermal hotspots, cracks, vegetation overgrowth).
 
-n8n sends inspection mission JSON to drone containing:
-
-Flight altitude parameters
-Inspection route waypoints
-Mission duration specs
-
-2. Data Collection
-Drone captures and transmits:
-
-Real-time telemetry data
-High-resolution video feeds
-Anomaly detection flags:
-
-Thermal hotspots
-Structural cracks
-Vegetation overgrowth
-
-Automated Actions
-Data Analysis
-
-ML Pipeline: YOLOv8 + TensorRT for real-time anomaly detection
-Geolocation Tagging: GPS coordinates assigned to detected anomalies
-Classification: Automated severity assessment and categorization
-
-Maintenance Integration
-
-Work Order Creation: Automatic generation in CMMS platforms:
-
-Fiix
-IBM Maximo
-SAP Plant Maintenance (PM)
-
-Priority Assignment: Based on anomaly severity and asset criticality
-
-Regulatory Compliance
-
-Automated Reporting: PDF generation with:
-
-Inspection timestamps
-Drone flight data
-Anomaly documentation
-Compliance metrics
-
-
-Distribution: Automatic email delivery to compliance officers
-
-Data Management
-
-Cloud Storage: Inspection data archived to:
-
-Amazon S3
-Google Cloud Storage
-
-
-Analytics: Summary data pushed to dashboards:
-
-Power BI
-Grafana
-
-Benefits
-
-Compliance Automation: Reduces manual reporting overhead
-Predictive Maintenance: Early anomaly detection prevents failures
-Cost Reduction: Minimizes manual inspection requirements
-Safety Improvement: Reduces human exposure to hazardous environments
-Data-Driven Decisions: Centralized analytics for asset optimization
-
-Technical Stack
-
-Orchestration: n8n
-ML Framework: YOLOv8, TensorRT
-CMMS Integration: Fiix, IBM Maximo, SAP PM
-Cloud Storage: AWS S3, Google Cloud
-Visualization: Power BI, Grafana
-Format: JSON APIs, PDF reporting
+3. Actions
+    Data Analysis:
+        Run ML pipeline for anomaly detection (YOLOv8, TensorRT).
+        Tag anomalies with GPS coordinates.
+    Maintenance Integration:
+        Auto-create work order in CMMS (Fiix, IBM Maximo, SAP PM).
+    Regulatory Reporting:
+        Auto-generate PDF report with timestamps & drone data.
+        Email to compliance officers.
+    Data Archival
+        Store inspection data in S3 / Google Cloud.
+        Push summary to Power BI / Grafana dashboards.
 
 ```json
 {
