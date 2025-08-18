@@ -307,15 +307,13 @@ Missions are defined in JSON format on USB drive:
 - [ ] Integration testing
 
 ### Phase 3: Intelligence
-- [x] Computer Vision Module (YOLOv8)
-- [ ] Advanced command implementations
+- [ ] Computer Vision Module (YOLOE)
+- [x] Advanced command implementations
 - [x] Data Logger with analytics
-- [ ] Machine learning integration
 
 ### Phase 4: Field Testing 
 - [ ] Full module integration
 - [ ] Real-world field testing
-- [ ] Emergency scenario simulation
 - [ ] Performance optimization
 
 
@@ -331,7 +329,7 @@ Missions are defined in JSON format on USB drive:
 
 In this phase, Aero Companion transitions from manual or pre-scripted operation to an intelligent, event-driven system where autonomous agents manage mission workflows based on real-world triggers. The drone system becomes deeply integrated with customer operations, logistics systems, and edge/cloud-based agents that drive mission planning, coordination, and oversight.
 
-# n8n Workflow Integration
+# Workflow Integration - n8n 
 
 Using n8n these integrations transform your autonomous drone into a complete business solution that seamlessly connects with existing enterprise systems.
 
@@ -363,6 +361,63 @@ Deploy for environmental compliance and emergency response:
 - **Regulatory Reporting**: Automated compliance documentation and incident reports
 - **Multi-Site Coordination**: Orchestrate response across multiple drone deployments
 
+Workflow: Energy & Infrastructure – Automated Asset Inspection
+Use Case
+
+Solar farms, wind turbines, oil & gas pipelines → Drone performs scheduled inspections with compliance reporting.
+
+Workflow Flow
+
+Trigger
+
+Scheduled via n8n (daily, weekly).
+
+Or manual trigger by maintenance engineer.
+
+n8n Processing
+
+Send inspection mission JSON to drone (altitude, route, duration).
+
+Collect telemetry, video, and anomaly flags (thermal hotspots, cracks, vegetation overgrowth).
+
+Actions
+
+Data Analysis:
+
+Run ML pipeline for anomaly detection (YOLOv8, TensorRT).
+
+Tag anomalies with GPS coordinates.
+
+Maintenance Integration:
+
+Auto-create work order in CMMS (Fiix, IBM Maximo, SAP PM).
+
+Regulatory Reporting:
+
+Auto-generate PDF report with timestamps & drone data.
+
+Email to compliance officers.
+
+Data Archival
+
+Store inspection data in S3 / Google Cloud.
+
+Push summary to Power BI / Grafana dashboards.
+
+```json
+{
+  "workflow": "solar_farm_inspection",
+  "trigger": "schedule:weekly",
+  "actions": [
+    "send_mission: Drone_AC001",
+    "analyze_video: anomaly_detection",
+    "create_work_order: IBM_Maximo",
+    "generate_report: PDF/email",
+    "archive_data: Google_Cloud"
+  ]
+}
+```
+
 ## Automated Mission Triggering & Agentic Workflows
 
 ### Autonomous Delivery Dispatch
@@ -390,37 +445,58 @@ Transform e-commerce and logistics operations with fully automated drone deploym
 }
 ```
 
-### Intelligent Agent Responsibilities
+Workflow: Security & Surveillance – Smart Intrusion Response
+Use Case
 
-**Mission Generation Engine**
-- **Event Translation**: Convert business events (orders, inspections, emergencies) into executable drone missions
-- **Parameter Optimization**: Intelligent route planning considering weather, airspace, and efficiency
-- **Mission Validation**: Automatic verification of mission feasibility and safety parameters
+Warehouses, data centers, corporate campuses → Drone becomes an autonomous security guard.
 
-**Inventory & Resource Coordination**
-- **Fleet Management**: Real-time tracking of drone availability, battery levels, and maintenance status
-- **Proximity Matching**: Optimize drone selection based on geographic location and mission requirements
-- **Load Balancing**: Distribute missions across available drones to maximize fleet utilization
+Workflow Flow
 
-**Human-In-The-Loop Orchestration**
-- **Task Assignment**: Automated notifications to appropriate personnel for physical tasks
-- **Workflow Coordination**: Synchronize human activities with autonomous operations
-- **Progress Tracking**: Monitor completion of manual tasks and trigger next automation steps
-- **Escalation Management**: Route issues to appropriate personnel based on urgency and expertise
+Trigger
 
-**Comprehensive Audit & Compliance**
-- **Full Mission Logging**: Complete audit trail from order receipt to delivery confirmation
-- **Regulatory Compliance**: Automatic generation of required aviation and commercial documentation
-- **Cost Tracking**: Real-time calculation of operational costs and profitability per mission
+Computer Vision Detection (drone detects person/vehicle after hours).
 
-**Dynamic Mission Management**
-- **Real-Time Monitoring**: Continuous tracking of flight progress and mission status
-- **Stakeholder Updates**: Automated notifications to customers, dispatchers, and management
-- **Route Optimization**: Dynamic path adjustment based on weather, traffic, and obstacles
-- **Delivery Confirmation**: Automated proof-of-delivery with photo/video evidence
+Or Motion Alert from CCTV or IoT sensors (n8n webhook).
 
-**Intelligent Incident Response**
-- **Safety Event Detection**: Automatic recognition of geofence breaches, low battery, or SLAM failures
-- **Escalation Protocols**: Smart routing of incidents based on severity and required response
-- **Emergency Procedures**: Automated execution of safety protocols including emergency RTL
-- **Recovery Coordination**: Orchestration of drone recovery and mission continuation procedures
+n8n Processing
+
+Check against security rules (time of day, geofence).
+
+Severity assessment (low = staff alert, high = escalation).
+
+Actions
+
+Instant Notifications:
+
+Slack/MS Teams alert with photo & GPS coordinates.
+
+SMS to security staff.
+
+Incident Ticketing:
+
+Auto-create incident in ServiceNow / Jira / custom incident tracker.
+
+Evidence Handling:
+
+Upload video & snapshots to Google Drive / S3 with timestamp.
+
+Append log entry in compliance database.
+
+Optional Escalation
+
+If severity = high → Trigger secondary drone dispatch.
+
+Auto-call via Twilio → escalate to on-call guard.
+
+```json
+{
+  "workflow": "security_intrusion_alert",
+  "trigger": "cv_person_detected",
+  "actions": [
+    "slack_post: #security_ops",
+    "sms_alert: +1555123456",
+    "create_ticket: ServiceNow",
+    "upload_evidence: S3_bucket/security_logs"
+  ]
+}
+```
