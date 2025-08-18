@@ -363,8 +363,6 @@ Deploy for environmental compliance and emergency response:
 
 ### Workflow: Energy & Infrastructure – Automated Asset Inspection
 
-**Use Case**
-
 Solar farms, wind turbines, oil & gas pipelines → Drone performs scheduled inspections with compliance reporting.
 
 **Workflow Flow**
@@ -431,8 +429,6 @@ Transform e-commerce and logistics operations with fully automated drone deploym
 ```
 
 ### Workflow: Security & Surveillance – Smart Intrusion Response
-
-**Use Case**
 
 Warehouses, data centers, corporate campuses → Drone becomes an autonomous security guard.
 
