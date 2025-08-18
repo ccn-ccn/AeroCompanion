@@ -101,7 +101,7 @@ These commands are designed for a wide range of commercial applications and allo
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
 [![OpenCV](https://img.shields.io/badge/OpenCV-4.x-green.svg)](https://opencv.org)
-[![YOLOE](https://img.shields.io/badge/YOLOv8-Ultralytics-orange.svg)](https://ultralytics.com)
+[![YOLOE](https://img.shields.io/badge/YOLOE-Ultralytics-orange.svg)](https://ultralytics.com)
 [![MAVLink](https://img.shields.io/badge/MAVLink-2.0-red.svg)](https://mavlink.io)
 
 **Phase 2**: Transitioning from command-based manual operation to fully autonomous, modular system with USB mission profiles.
@@ -322,7 +322,7 @@ Missions are defined in JSON format on USB drive:
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
 [![OpenCV](https://img.shields.io/badge/OpenCV-4.x-green.svg)](https://opencv.org)
-[![YOLOE](https://img.shields.io/badge/YOLOv8-Ultralytics-orange.svg)](https://ultralytics.com)
+[![YOLOE](https://img.shields.io/badge/YOLOE-Ultralytics-orange.svg)](https://ultralytics.com)
 [![MAVLink](https://img.shields.io/badge/MAVLink-2.0-red.svg)](https://mavlink.io)
 
 **Phase 3**: Evolution into an intelligent agentic architecture enabling end-to-end automation and integration with enterprise systems.
