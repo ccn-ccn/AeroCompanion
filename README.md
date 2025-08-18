@@ -378,7 +378,7 @@ Solar farms, wind turbines, oil & gas pipelines → Drone performs scheduled ins
 
 3. Actions
     - Data Analysis:
-        * Run ML pipeline for anomaly detection (YOLOv8, TensorRT).
+        * Run ML pipeline for anomaly detection (YOLOE, TensorRT).
         * Tag anomalies with GPS coordinates.
     - Maintenance Integration:
         * Auto-create work order in CMMS (Fiix, IBM Maximo, SAP PM).
@@ -430,48 +430,37 @@ Transform e-commerce and logistics operations with fully automated drone deploym
 }
 ```
 
-Workflow: Security & Surveillance – Smart Intrusion Response
-Use Case
+### Workflow: Security & Surveillance – Smart Intrusion Response
+
+**Use Case**
 
 Warehouses, data centers, corporate campuses → Drone becomes an autonomous security guard.
 
-Workflow Flow
+**Workflow Flow**
 
-Trigger
+1. Trigger
+    * Computer Vision Detection (drone detects person/vehicle after hours).
+    * Or Motion Alert from CCTV or IoT sensors (n8n webhook).
 
-Computer Vision Detection (drone detects person/vehicle after hours).
+2. n8n Processing
+    * Check against security rules (time of day, geofence).
+    * Severity assessment (low = staff alert, high = escalation).
 
-Or Motion Alert from CCTV or IoT sensors (n8n webhook).
+3. Actions
+   - Instant Notifications:
+        * Slack/MS Teams alert with photo & GPS coordinates.
+        * SMS to security staff.
 
-n8n Processing
+    - Incident Ticketing:
+        * Auto-create incident in ServiceNow / Jira / custom incident tracker.
 
-Check against security rules (time of day, geofence).
+    - Evidence Handling:
+        * Upload video & snapshots to Google Drive / S3 with timestamp.
+        * Append log entry in compliance database.
 
-Severity assessment (low = staff alert, high = escalation).
-
-Actions
-
-Instant Notifications:
-
-Slack/MS Teams alert with photo & GPS coordinates.
-
-SMS to security staff.
-
-Incident Ticketing:
-
-Auto-create incident in ServiceNow / Jira / custom incident tracker.
-
-Evidence Handling:
-
-Upload video & snapshots to Google Drive / S3 with timestamp.
-
-Append log entry in compliance database.
-
-Optional Escalation
-
-If severity = high → Trigger secondary drone dispatch.
-
-Auto-call via Twilio → escalate to on-call guard.
+4. Optional Escalation
+    * If severity = high → Trigger secondary drone dispatch.
+    * Auto-call via Twilio → escalate to on-call guard.
 
 ```json
 {
