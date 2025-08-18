@@ -87,10 +87,6 @@ These commands are designed for a wide range of commercial applications and allo
 
 ![Screenshot by Snip My on Mar 11, 2025 at 6 54 10 PM](https://github.com/user-attachments/assets/5c073916-cd7d-455c-aa19-a58c9d2946de)
 
-![Screenshot by Snip My on Mar 11, 2025 at 6 54 40 PM](https://github.com/user-attachments/assets/6540e592-11e4-4d31-8834-54c7459f7597)
-
-![Screenshot by Snip My on Mar 11, 2025 at 6 55 26 PM](https://github.com/user-attachments/assets/cf566c4a-57b7-4643-a2d7-f347da3bb72d)
-
 ![Screenshot by Snip My on Mar 11, 2025 at 6 55 49 PM](https://github.com/user-attachments/assets/53867f50-8075-4b4a-ae29-7ddaee4b8605)
 
 <img width="810" height="500" alt="skynet" src="https://github.com/user-attachments/assets/5eef0489-0114-42ab-bbf5-18ba931d37fe" />
