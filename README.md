@@ -2,7 +2,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
 [![OpenCV](https://img.shields.io/badge/OpenCV-4.x-green.svg)](https://opencv.org)
-[![YOLOE](https://img.shields.io/badge/YOLOv8-Ultralytics-orange.svg)](https://ultralytics.com)
+[![YOLOE](https://img.shields.io/badge/YOLOE-Ultralytics-orange.svg)](https://ultralytics.com)
 [![MAVLink](https://img.shields.io/badge/MAVLink-2.0-red.svg)](https://mavlink.io)
 
 **Phase 1**: Implementing semi-autonomous capabilities with manned pilots controlling drones through user-friendly web applications.
