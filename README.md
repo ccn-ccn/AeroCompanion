@@ -365,7 +365,6 @@ Deploy for environmental compliance and emergency response:
 
 Solar farms, wind turbines, oil & gas pipelines → Drone performs scheduled inspections with compliance reporting.
 
-**Workflow Flow**
 1. Trigger
     * Scheduled via n8n (daily, weekly).
     * Or manual trigger by maintenance engineer.
@@ -431,8 +430,6 @@ Transform e-commerce and logistics operations with fully automated drone deploym
 ### Workflow: Security & Surveillance – Smart Intrusion Response
 
 Warehouses, data centers, corporate campuses → Drone becomes an autonomous security guard.
-
-**Workflow Flow**
 
 1. Trigger
     * Computer Vision Detection (drone detects person/vehicle after hours).
