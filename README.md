@@ -85,8 +85,6 @@ These commands are designed for a wide range of commercial applications and allo
 
 ![Screenshot by Snip My on Mar 11, 2025 at 6 53 37 PM](https://github.com/user-attachments/assets/40c38042-9fb9-4730-be62-b61217587c8f)
 
-![Screenshot by Snip My on Mar 11, 2025 at 6 54 40 PM](https://github.com/user-attachments/assets/6540e592-11e4-4d31-8834-54c7459f7597)
-
 ![Screenshot by Snip My on Mar 11, 2025 at 6 55 26 PM](https://github.com/user-attachments/assets/cf566c4a-57b7-4643-a2d7-f347da3bb72d)
 
 ![Screenshot by Snip My on Mar 11, 2025 at 6 55 49 PM](https://github.com/user-attachments/assets/53867f50-8075-4b4a-ae29-7ddaee4b8605)
