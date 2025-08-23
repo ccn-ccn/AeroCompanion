@@ -300,7 +300,6 @@ Missions are defined in JSON format on USB drive:
 - [ ] SLAM Navigation Module
 - [x] Command Interpreter
 - [x] USB Program Objectives Parser
-- [ ] Integration testing
 
 ### Phase 3: Intelligence
 - [ ] Computer Vision Module (YOLOE)
