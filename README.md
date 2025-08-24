@@ -302,7 +302,7 @@ Missions are defined in JSON format on USB drive:
 - [x] USB Program Objectives Parser
 
 ### Phase 3: Intelligence
-- [ ] Computer Vision Module (YOLOE)
+- [ ] Computer Vision Module 
 - [x] Advanced command implementations
 - [x] Data Logger with analytics
 
