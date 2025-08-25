@@ -73,9 +73,9 @@ These commands are designed for a wide range of commercial applications and allo
 
 **Track**: Automatically follow a moving object, such as a person or vehicle, based on real-time visual data.
 
-**Follow Route**: Pre-program a route using GPS for the drone to follow autonomously.
+**Go To Route**: Pre-program a route using GPS for the drone to follow autonomously.
 
-**Deliver Package**: Navigate to a specific location and release a payload.
+**Release Payload**: Navigate to a specific location and release a payload.
 
 **Return Home**: Command the drone to return to its launch point.
 
