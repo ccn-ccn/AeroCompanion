@@ -25,7 +25,7 @@ This project leverages the capabilities of the Raspberry Pi 5 and Pixhawk 6X fli
 
 ### Autonomous Flight Control
 - Utilizes the **Pixhawk 6X** flight controller for precise and reliable flight control.
-- Implements AI models to handle autonomous navigation and decision-making.
+- Implements CV models to handle autonomous navigation and tracking.
 
 ### Real-Time Video Streaming
 - Streams live video feed from the drone's camera to a web application or **Vuzix Blade** smart glasses for FPV (First Person View) experience.
