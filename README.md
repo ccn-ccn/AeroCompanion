@@ -488,11 +488,8 @@ With **AeroCompanion DSaaS**, our clients gain access to a **scalable, AI-enhanc
 
 ### **Revenue Model**
 💰 **One-Time Drone Purchase** – Enterprise-grade drones, custom-built for each industry.  
-
 💰 **SaaS Subscription** – Access AI updates, enhanced analytics, and mission-critical features.  
-
-💰 **On-Demand Upgrades** – Buy new functionalities like **thermal imaging AI**, **precision payload deployment**, and more.
-
+💰 **On-Demand Upgrades** – Buy new functionalities like **thermal imaging AI**, **precision payload deployment**, and more.  
 💰 **Repair & Maintenance Services** – Repair services for drones damaged during operations, including hardware replacements, software diagnostics, and routine maintenance to ensure optimal performance. Clients can choose between per-incident repairs or a subscription-based maintenance plan.
 
 ### **The Future is Modular. The Future is Intelligent.**
