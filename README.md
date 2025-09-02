@@ -465,7 +465,7 @@ Warehouses, data centers, corporate campuses → Drone becomes an autonomous sec
 
 ---
 
-# **AeroCompanion DSaaS: The Future of Intelligent Drone Operations**
+# **DSaaS: The Future of Intelligent Drone Operations**
 
 ### **Transforming Drones into Intelligent, Mission-Ready Systems**
 
