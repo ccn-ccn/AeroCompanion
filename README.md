@@ -273,14 +273,6 @@ Missions are defined in JSON format on USB drive:
 5. Takeoff → Begin mission at safe altitude
 ```
 
-### Mission Loop
-
-- **Continuous Monitoring**: Safety & health checks every 100ms
-- **Objective Processing**: Parse and execute mission commands
-- **Sensor Fusion**: SLAM + GPS + vision integration  
-- **Data Recording**: Log all events and telemetry
-- **Decision Making**: Adaptive behavior based on conditions
-
 ### Emergency Handling
 
 | Trigger | Response | Fallback |
