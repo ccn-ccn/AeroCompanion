@@ -475,7 +475,7 @@ With **AeroCompanion DSaaS**, our clients gain access to a **scalable, AI-enhanc
 ✅ **GPS-Free Navigation** – Operate confidently in GPS-denied environments.  
 ✅ **AI-Driven Intelligence** – Advanced machine learning models enable real-time adaptation.  
 ✅ **Voice Command & AR Integration** – Enhanced user experience with **Vuzix Smart Glasses** support.  
-✅ **Mission-Specific Customization** – From payload delivery to target tracking, every drone is adaptable to evolving needs.  
+✅ **Mission-Specific Customization** – From delivery to tracking, every drone is adaptable to evolving needs.  
 ✅ **Subscription-Based Innovation** – Stay ahead with AI software updates, new mission capabilities, and ongoing support through our **SaaS model**.
 
 ### **Revenue Model**
