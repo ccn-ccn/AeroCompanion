@@ -295,7 +295,7 @@ Missions are defined in JSON format on USB drive:
 
 ### Phase 3: Intelligence
 - [ ] Computer Vision Module 
-- [x] Advanced command implementations
+- [ ] Advanced command implementations
 - [x] Data Logger with analytics
 
 ### Phase 4: Field Testing 
