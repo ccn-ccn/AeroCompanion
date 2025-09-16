@@ -476,7 +476,7 @@ With **AeroCompanion DSaaS**, our clients gain access to a **scalable, AI-enhanc
 ✅ **AI-Driven Intelligence** – Advanced machine learning models enable real-time adaptation.  
 ✅ **Voice Command & AR Integration** – Enhanced user experience with **Vuzix Smart Glasses** support.  
 ✅ **Mission-Specific Customization** – From delivery to tracking, every drone is adaptable to evolving needs.  
-✅ **Subscription-Based Innovation** – Stay ahead with AI software updates, new mission capabilities, and ongoing support through our **SaaS model**.
+✅ **Subscription-Based Innovation** – Stay ahead with AI software updates, new mission capabilities, and ongoing support through our **DSaaS model**.
 
 ### **Revenue Model**
 💰 **One-Time Drone Purchase** – Enterprise-grade drones, custom-built for each industry.  
