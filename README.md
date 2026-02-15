@@ -469,21 +469,21 @@ With **AeroCompanion DSaaS**, our clients gain access to a **scalable, AI-enhanc
 4. **Seamless Scalability** – Whether you need **one drone or a fleet**, our software and modular payloads ensure continuous improvement and mission success.
 
 ### **Why AeroCompanion?**
-✅ **GPS-Free Navigation** – Operate confidently in GPS-denied environments.  
-✅ **AI-Driven Intelligence** – Advanced machine learning models enable real-time adaptation.  
-✅ **Voice Command & AR Integration** – Enhanced user experience with **Vuzix Smart Glasses** support.  
-✅ **Mission-Specific Customization** – From delivery to tracking, every drone is adaptable to evolving needs.  
-✅ **Subscription-Based Innovation** – Stay ahead with AI software updates, new mission capabilities, and ongoing support through our **DSaaS model**.
+**GPS-Free Navigation** – Operate confidently in GPS-denied environments.  
+**AI-Driven Intelligence** – Advanced machine learning models enable real-time adaptation.  
+**Voice Command & AR Integration** – Enhanced user experience with **Vuzix Smart Glasses** support.  
+**Mission-Specific Customization** – From delivery to tracking, every drone is adaptable to evolving needs.  
+**Subscription-Based Innovation** – Stay ahead with AI software updates, new mission capabilities, and ongoing support through our **DSaaS model**.
 
 ### **Revenue Model**
-💰 **One-Time Drone Purchase** – Enterprise-grade drones, custom-built for each industry.  
-💰 **SaaS Subscription** – Access AI updates, enhanced analytics, and mission-critical features.  
-💰 **On-Demand Upgrades** – Purchase new functionality like **thermal imaging**, **custom workflows**, **swarm autonomy**, and more.  
-💰 **Repair & Maintenance Services** – Repair services for drones damaged during operations, including hardware replacements, software diagnostics, and routine maintenance to ensure optimal performance. Clients can choose between per-incident repairs or a subscription-based maintenance plan.
+**One-Time Drone Purchase** – Enterprise-grade drones, custom-built for each industry.  
+**SaaS Subscription** – Access AI updates, enhanced analytics, and mission-critical features.  
+**On-Demand Upgrades** – Purchase new functionality like **thermal imaging**, **custom workflows**, **swarm autonomy**, and more.  
+**Repair & Maintenance Services** – Repair services for drones damaged during operations, including hardware replacements, software diagnostics, and routine maintenance to ensure optimal performance. Clients can choose between per-incident repairs or a subscription-based maintenance plan.
 
 ### **The Future is Modular. The Future is Intelligent.**
 AeroCompanion is not just a drone—it's a **future-proof platform**. As missions evolve, your drone evolves with **zero downtime and no need for full replacement**. 
 
-🚀 **Ready to revolutionize your drone operations?** [Contact us today](mailto:member@creativeconnections.tech) and take flight into the future  🚀
+**Ready to revolutionize your drone operations?** [Contact us today](mailto:member@creativeconnections.tech) and take flight into the future
 
 ---
