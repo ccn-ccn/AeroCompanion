@@ -89,8 +89,6 @@ These commands are designed for a wide range of commercial applications and allo
 
 ![Screenshot by Snip My on Mar 11, 2025 at 6 55 49 PM](https://github.com/user-attachments/assets/53867f50-8075-4b4a-ae29-7ddaee4b8605)
 
-<img width="810" height="500" alt="skynet" src="https://github.com/user-attachments/assets/5eef0489-0114-42ab-bbf5-18ba931d37fe" />
-
 
 
 # Autonomous System Architecture
