@@ -90,7 +90,6 @@ These commands are designed for a wide range of commercial applications and allo
 ![Screenshot by Snip My on Mar 11, 2025 at 6 55 49 PM](https://github.com/user-attachments/assets/53867f50-8075-4b4a-ae29-7ddaee4b8605)
 
 
-
 # Autonomous System Architecture
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
