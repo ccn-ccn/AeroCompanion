@@ -458,9 +458,7 @@ Warehouses, data centers, corporate campuses → Drone becomes an autonomous sec
 
 ### Transforming Drones into Intelligent, Mission-Ready Systems
 
-Traditional drones are limited by hardware constraints, outdated firmware, and lack of adaptability. AeroCompanion changes the game by offering a fully modular drone ecosystem where customers can upgrade their fleet on demand. 
-
-With AeroCompanion DSaaS, our clients gain access to a scalable drone platform that evolves with their mission needs, whether for infrastructure, search and rescue, or logistics. 
+Traditional drones are limited by hardware constraints, outdated firmware, and lack of adaptability. AeroCompanion changes the game by offering a fully modular drone ecosystem where customers can upgrade their fleet on demand. With AeroCompanion DSaaS, our clients gain access to a scalable drone platform that evolves with their mission needs, whether for infrastructure, search and rescue, or logistics. 
 
 ### **How It Works**
 * Custom Hardware Built for You – Our team designs and delivers custom built drones tailored to your operational requirements.
