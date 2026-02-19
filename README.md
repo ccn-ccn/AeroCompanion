@@ -8,7 +8,7 @@
 **Phase 1**: Implementing semi-autonomous capabilities with manned pilots controlling drones through user-friendly web applications.
 
 
-Welcome to **Aero Companion** an autonomous drone with cutting edge capabilities including real-time video streaming, computer vision, and GPS independent navigation. 
+Welcome to Aero Companion an autonomous drone with cutting edge capabilities including real-time video streaming, computer vision, and GPS independent navigation. 
 
 ![image0](https://github.com/user-attachments/assets/a31faa19-307c-4796-b84e-6b28c898660d)
 
@@ -24,19 +24,19 @@ This project leverages the capabilities of the Raspberry Pi 5 and Pixhawk 6X fli
 ## Key Features
 
 ### Autonomous Flight Control
-- Utilizes the **Pixhawk 6X** flight controller for precise and reliable flight control.
+- Utilizes the Pixhawk 6X flight controller for precise and reliable flight control.
 - Implements CV models to handle autonomous navigation and tracking.
 
 ### Real-Time Video Streaming
-- Streams live video feed from the drone's camera to a web application or **Vuzix Blade** smart glasses for FPV (First Person View) experience.
-- Provides video transmission over a **Sixfab 4G/LTE cellular modem** for extended range operations.
+- Streams live video feed from the drone's camera to a web application or smart glasses for first person view experience.
+- Provides video transmission over a Sixfab 4G/LTE cellular modem for extended range operations.
 
 ### Computer Vision and Obstacle Avoidance
 - Employs a secondary downward-facing camera for movement tracking and obstacle detection.
 - Integrates computer vision algorithms for target tracking, obstacle avoidance, and payload delivery.
 
 ### GPS-Free Navigation
-- Relies on IMU data and visual tracking for navigation, ensuring continued operation even in GPS-denied environments.
+- Relies on IMU data and visual tracking for navigation, ensuring continued operation even in GPS denied environments.
 
 ### Modular Design
 - Features a modular payload system allowing for easy swapping of sensors and equipment based on mission requirements.
@@ -44,17 +44,17 @@ This project leverages the capabilities of the Raspberry Pi 5 and Pixhawk 6X fli
 
 ### Enhanced User Interface
 - Provides a web-based control interface compatible with mobile devices, featuring joystick controls and voice command capabilities.
-- Integrates with **Vuzix Blade AR smart glasses** to offer augmented reality overlays and voice command input.
+- Integrates with smart glasses to offer augmented reality overlays and voice command input.
 
 ---
 
 ## Technical Specifications
 
-- **Flight Controller**: Pixhawk 6X
-- **Processor**: Raspberry Pi 5
-- **Camera**: Raspberry Pi Camera
-- **Connectivity**: Sixfab 4G/LTE Cellular Modem
-- **Materials**: Lightweight and durable 3D-printed mounts and frames
+- Flight Controller: Pixhawk 6X
+- Processor: Raspberry Pi 5
+- Camera: Raspberry Pi Camera
+- Connectivity: Sixfab 4G/LTE Cellular Modem
+- Materials: Lightweight and durable 3D-printed mounts and frames
 
 ---
 
@@ -63,7 +63,7 @@ These commands are designed for a wide range of commercial applications and allo
 
 **Move Up / Move Down**: Vertical navigation for getting the drone to the required altitude.
 
-**Pan Left / Pan Right**: Adjust the drone’s orientation for full 360-degree coverage.
+**Pan Left / Pan Right**: Adjust the drone’s orientation for full 360 degree coverage.
 
 **Move Forward / Move Backward**: Basic forward or backward movement for navigating environments.
 
@@ -147,7 +147,7 @@ graph TD
 
 ### 3. SLAM Navigation Module
 
-**Purpose:** Tracks position via visual SLAM using bottom-facing camera and AI HAT+
+**Purpose:** Tracks position via visual SLAM using bottom facing camera and AI HAT+
 
 **Capabilities:**
 - ORB-SLAM implementation
@@ -275,7 +275,7 @@ Missions are defined in JSON format on USB drive:
 | Trigger | Response | Fallback |
 |---------|----------|----------|
 | Low Battery | Immediate RTL | Critical landing |
-| SLAM Failure | GPS-only mode | Manual override |
+| SLAM Failure | GPS only mode | Manual override |
 | Geofence Breach | Forced return | Emergency stop |
 
 ## Development Roadmap
@@ -463,22 +463,22 @@ Traditional drones are limited by hardware constraints, outdated firmware, and l
 With AeroCompanion DSaaS, our clients gain access to a scalable drone platform that evolves with their mission needs, whether for infrastructure, search and rescue, or logistics. 
 
 ### **How It Works**
-1. Custom Hardware Built for You – Our team designs and delivers custom built drones tailored to your operational requirements.
-2. Modular Upgrades & Enhancements – Need new functionality? Upgrade your drone without replacing it: purchase upgraded software, automation scripts, and hardware expansions as needed.
-3. Cloud Powered Intelligence – Real-time data processing, AI-assisted decision making, and mission adaptability, all accessible via the web.
-4. Seamless Scalability – Whether you need one drone or a fleet, our software and modular payloads ensure continuous improvement and mission success.
+* Custom Hardware Built for You – Our team designs and delivers custom built drones tailored to your operational requirements.
+* Modular Upgrades & Enhancements – Need new functionality? Upgrade your drone without replacing it: purchase upgraded software, automation scripts, and hardware expansions as needed.
+* Cloud Powered Intelligence – Real-time data processing, AI-assisted decision making, and mission adaptability, all accessible via the web.
+* Seamless Scalability – Whether you need one drone or a fleet, our software and modular payloads ensure continuous improvement and mission success.
 
 ### **Why AeroCompanion?**
-GPS Free Navigation – Operate confidently in GPS denied environments.  
-Voice Command & AR Integration – Enhanced user experience with Smart Glasses support.  
-Mission Specific Customization – From delivery to inspection, every drone is adaptable to evolving needs.  
-Subscription-Based Innovation – Stay ahead with latest software updates, new mission capabilities, and ongoing support through our DSaaS model.
+* GPS Free Navigation – Operate confidently in GPS denied environments.  
+* Voice Command & AR Integration – Enhanced user experience with Smart Glasses support.  
+* Mission Specific Customization – From delivery to inspection, every drone is adaptable to evolving needs.  
+* Subscription-Based Innovation – Stay ahead with latest software updates, new mission capabilities, and ongoing support through our DSaaS model.
 
 ### **Revenue Model**
-One Time Drone Purchase – Enterprise grade drones custom built for each industry.  
-SaaS Subscription – Access software updates, enhanced analytics, and mission critical features.  
-On-Demand Upgrades – Purchase new functionality like thermal imaging, custom workflows, and more.  
-Repair & Maintenance Services – Repair services for damages during operations, including hardware replacements, software diagnostics, and routine maintenance to ensure optimal performance. Clients can choose between per-incident repairs or a subscription-based maintenance plan.
+* One Time Drone Purchase – Enterprise grade drones custom built for each industry.  
+* SaaS Subscription – Access software updates, enhanced analytics, and mission critical features.  
+* On-Demand Upgrades – Purchase new functionality like thermal imaging, custom workflows, and more.  
+* Repair & Maintenance Services – Repair services for damages during operations, including hardware replacements, software diagnostics, and routine maintenance to ensure optimal performance. Clients can choose between per-incident repairs or a subscription-based maintenance plan.
 
 ### **The Future is Modular. The Future is Intelligent.**
 AeroCompanion is not just a drone it's a future proof platform. As missions evolve, your drone evolves with zero downtime and no need for full replacement. 
