@@ -9,9 +9,9 @@
 
 
 Welcome to Aero Companion an autonomous drone with cutting edge capabilities including real-time video streaming, computer vision, and GPS independent navigation. 
-
+<!--
 ![image0](https://github.com/user-attachments/assets/a31faa19-307c-4796-b84e-6b28c898660d)
-
+-->
 ---
 
 
