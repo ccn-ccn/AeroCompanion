@@ -277,7 +277,7 @@ Missions are defined in JSON format on USB drive:
 | Low Battery | Immediate RTL | Critical landing |
 | SLAM Failure | GPS only mode | Manual override |
 | Geofence Breach | Forced return | Emergency stop |
-
+<!--
 ## Development Roadmap
 
 ### Phase 1: Foundation *(Completed)*
@@ -300,7 +300,7 @@ Missions are defined in JSON format on USB drive:
 - [ ] Real-world field testing
 - [ ] Performance optimization
 
-
+-->
 
 # Agentic System Architecture
 
