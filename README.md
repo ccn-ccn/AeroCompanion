@@ -177,10 +177,10 @@ graph TD
 |---------|-------------|----------|
 | `hover` | Maintain position using computer vision | Stable observation |
 | `track` | Follow object at defined distance | Wildlife monitoring |
-| `guard` | Circle/patrol an area | Perimeter security |
+<!--| `guard` | Circle/patrol an area | Perimeter security |
 | `find` | Search pattern for specific target | Search & rescue |
 | `surveil` | Observe area/object for duration | Surveillance ops |
-| `recon` | Map and scan defined region | Area mapping |
+| `recon` | Map and scan defined region | Area mapping |-->
 | `goto` | Navigate to coordinates | Waypoint missions |
 | `return` | Return home using SLAM/GPS | Mission completion |
 
@@ -316,7 +316,7 @@ In this phase, Aero Companion transitions from manual or pre-scripted operation 
 # Workflow Integration - n8n 
 
 Using n8n these integrations transform your autonomous drone into a complete business solution that seamlessly connects with existing enterprise systems.
-
+<!--
 ## Real-Time Alert & Response Workflows
 
 ### Security Monitoring Pipeline
@@ -480,7 +480,7 @@ Traditional drones are limited by hardware constraints, outdated firmware, and l
 
 ### **The Future is Modular. The Future is Intelligent.**
 AeroCompanion is not just a drone it's a future proof platform. As missions evolve, your drone evolves with zero downtime and no need for full replacement. 
-
+-->
 Ready to revolutionize your drone operations? [Contact us today](mailto:member@creativeconnections.tech) and take flight into the future
 
 ---
